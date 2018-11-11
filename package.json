@@ -1,0 +1,29 @@
+{
+  "name": "luxury-inn",
+  "version": "1.0.0",
+  "description": "this is website for luxury inn motel dallas tx",
+  "author": "Hari Patel",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "vue-pure-lightbox": "^2.1.6",
+    "vue-scrollto": "^2.13.0",
+    "vue2-google-maps": "^0.10.2",
+    "vuetify": "^1.2.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.4",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
