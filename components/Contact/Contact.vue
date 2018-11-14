@@ -41,6 +41,14 @@
     color: white;
   }
 
+  @media screen and (max-width: 645px) {
+    .v-card {
+      padding: 0% !important;
+      padding-top: 5% !important;
+      padding-bottom: 5% !important;
+      padding-right: 2% !important;
+    }
+  }
 </style>
 
 

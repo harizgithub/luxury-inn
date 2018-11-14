@@ -4,13 +4,14 @@
   <!--Navigation Toolbar-->
   <v-toolbar>
     <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer" />
-    <v-toolbar-title>Luxury Inn</v-toolbar-title>
+    <img class="nav-brand hidden-sm-and-down" width="100" src="~/assets/img/nnewlogo.png" alt="">
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down">
       <v-btn primary flat nuxt to="/">Home</v-btn>
       <v-btn primary flat nuxt to="/hotelpolicies">Hotel Policies</v-btn>
       <v-btn primary flat nuxt to="/contact">Contact</v-btn>
     </v-toolbar-items>
+    <img class="nav-brand-mobile hidden-md-and-up" width="100" src="~/assets/img/nnewlogo.png" alt="">
   </v-toolbar>  
   <!-- Navigation Drawer -->
     <v-navigation-drawer
@@ -41,6 +42,7 @@
 </div>  
 </template>
 
+
 <script>
   export default {
     data () {
@@ -50,7 +52,7 @@
         scrolled:false,
         items: [
           { title: 'Home', icon: 'home',  to:"/" },
-          { title: 'Hotel Policies', icon: 'free_breakfast', to:"/hotelpolicies" },
+          { title: 'Hotel Policies', icon: 'assignment_turned_in', to:"/hotelpolicies" },
           { title: 'Contact', icon: 'perm_contact_calendar', to:"/contact" }
         ]
       }
