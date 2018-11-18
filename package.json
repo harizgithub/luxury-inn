@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/google-analytics": "^2.0.2",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
     "vue-pure-lightbox": "^2.1.6",
